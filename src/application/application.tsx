@@ -1,8 +1,12 @@
 import "css-reset-and-normalize";
-import "@style/global.css";
+import "@style/main.scss";
+import { Board } from "@component/board/board";
+
+const MY_FEN = '.w.w.w....w......W.b.W.............B..........b....b....b.......';
 
 export const Application = () => (
-  <>
-    <h1>salut checkers</h1>
-  </>
+  <div className="app">
+    <h1 className="header">checkers</h1>
+    <Board fen={MY_FEN}/>
+  </div>
 );

@@ -1,0 +1,24 @@
+@import '../../styles/colors';
+
+$size: 64px;
+
+.board {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto; // TODO refactoring needed
+  border: 1px solid;
+
+  .field {
+    width: $size;
+    height: $size;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: $white;
+  }
+
+  .fieldDark {
+    background: $black;
+  }
+}

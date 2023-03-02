@@ -1,0 +1,17 @@
+@import './_colors';
+@import './global';
+
+.app {
+  background-color: $tamarillo;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: $white;
+
+  .header {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+}

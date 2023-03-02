@@ -3,9 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "@application/*": ["src/application/*"],
-      "@atom/*": ["src/atoms/*"],
       "@component/*": ["src/components/*"],
-      "@enum/*": ["src/enums/*"],
       "@style/*": ["src/styles/*"],
       "@type/*": ["src/types/*"],
       "@util/*": ["src/utils/*"]
