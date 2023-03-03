@@ -1,4 +1,4 @@
-@import './_colors';
+@import './colors';
 @import './global';
 
 .app {
@@ -9,9 +9,4 @@
   align-items: center;
   justify-content: center;
   color: $white;
-
-  .header {
-    font-size: 24px;
-    margin-bottom: 8px;
-  }
 }

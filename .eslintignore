@@ -1,7 +1,0 @@
-build
-node_modules
-public
-craco.config.js
-paths.config.js
-*.test.tsx
-*.d.ts
