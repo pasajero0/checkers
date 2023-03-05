@@ -6,7 +6,7 @@
     "start": "craco start",
     "build": "craco build",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"./**/*.{ts,tsx}\"",
+    "format": "prettier --write \"./**/*.{ts,tsx,scss}\"",
     "docker:build": "docker build -t checkers-image .",
     "docker:run": "docker run -d -p 5000:3000 --name checkers-app checkers-image",
     "docker:start": "docker start checkers-app",
