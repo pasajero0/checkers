@@ -1,5 +1,5 @@
 import { DragEventHandler } from 'react';
-import classnames from 'classnames'
+import classnames from 'classnames';
 
 import { noop } from '@util/noop';
 
@@ -13,6 +13,6 @@ interface CheckerInterface {
 
 export const Checker = ({ isBlack = false, isKing = false, onDragStart = noop }: CheckerInterface) => (
   <div className={classnames('checker', isBlack && 'blackChecker')} draggable onDragStart={onDragStart}>
-    <p className='innerWrapper'>{isKing && '♛'}</p>
+    <p className="innerWrapper">{isKing && '♛'}</p>
   </div>
 );
