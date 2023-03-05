@@ -5,11 +5,10 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{ts,tsx}\"",
     "docker:build": "docker build -t checkers-image .",
-    "docker:run": "docker run -d -p 3000:3000 --name checkers-app checkers-image",
+    "docker:run": "docker run -d -p 5000:3000 --name checkers-app checkers-image",
     "docker:start": "docker start checkers-app",
     "docker:stop": "docker stop checkers-app",
     "docker:remove": "docker stop checkers-app && docker rm checkers-app && docker rmi checkers-image"
@@ -19,7 +18,6 @@
     "classnames": "2.3.2",
     "css-reset-and-normalize": "2.3.6",
     "node-sass": "8.0.0",
-    "prettier": "2.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1"
@@ -27,6 +25,7 @@
   "devDependencies": {
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
+    "prettier": "2.8.4",
     "typescript": "4.9.5"
   },
   "browserslist": {

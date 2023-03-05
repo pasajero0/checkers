@@ -14,10 +14,26 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `yarn docker:build`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Docker will create the image
+
+### `yarn docker:run`
+
+Docker will create a container based on the previously created image.
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser
+
+### `yarn docker:start`
+
+Docker will start container
+
+### `yarn docker:stop`
+
+Docker will stop container
+
+### `yarn docker:remove`
+
+Docker will stop container, remove it and remove the image
 
 ### `yarn build`
 
